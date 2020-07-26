@@ -47,12 +47,14 @@
       {{ else }}
           <a class="ui label">{{ i18n "noTag" }}</a>
       {{ end }}
+      {{ if .Site.Params.saveAsImage }}
       <div
         class="ui label"
         style="float: right; cursor: pointer;"
         onclick="savePostAsImg()">
         <i class="save icon"></i>{{ i18n "saveAsImage" }}
       </div>
+      {{ end }}
     </footer>
 
     {{ if .Site.Copyright }}

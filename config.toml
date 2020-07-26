@@ -1,4 +1,4 @@
-baseURL = "http://localhost:9010"
+baseURL = "/"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Kaalikutty"
@@ -18,11 +18,10 @@ theme="dream"
 # enableRobotsTXT = true
 
 [params]
-  background = "black"
-  color = "black"
+  background = "#686868"
   backgroundImage = "/img/bg.jpg"
-  linkColor = "purple"
-
+  linkColor = ""
+  saveAsImage = false
   author = "Kaalikutty"
   description = "Kali;s blog"
   avatar = "/img/avatar.jpg"

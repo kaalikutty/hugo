@@ -9,14 +9,7 @@
     {{ partial "head.html" . }}
     {{ block "css" . }} {{ end }}
   </head>
-
-  {{ if .Site.Params.background }}
-  <body style="background: {{ .Site.Params.background }};">
-  {{ else if .Site.Params.backgroundImage }}
-  <body style="background-image: url({{ .Site.Params.backgroundImage }});">
-  {{ else }}
-  <body>
-  {{ end }}
+  <body style='background-color: {{ .Site.Params.background | default "black" }}; background-image: url({{ .Site.Params.backgroundImage }});'>
     <div class="flip-container">
       <div class="flipper">
         <section class="front">

@@ -11,7 +11,7 @@
     <div class="ui segment dream-tags-section">
       <h1 class="ui large header">
         {{ i18n "allTags" }}
-        <div class="ui grey sub header">
+        <div class="ui grey sub header" style="text-transform:lowercase">
           {{ if eq (len .Data.Terms) 1 }}
             {{ i18n "tag" 1 }}
           {{ else }}
@@ -25,7 +25,7 @@
         {{ $termLink := printf "/%s/%s/" $data.Plural .Term | urlize }}
         <h2 class="ui medium header">
           <a href="{{ $termLink }}">{{ .Term }}</a>
-          {{ i18n "article" .Count }}
+          <span style="font-size: small; color: gray" >{{ i18n "article" .Count }}</span>
         </h2>
         <ul>
           {{ range .Pages }}

@@ -14,3 +14,12 @@ body{background-attachment:fixed;background-position:center;background-size:cove
  .inverted pre {
     background: transparent !important;
 }
+
+html, body article {
+    font-family: Georgia !important;
+    font-size: medium;
+}
+
+html, body ul li {
+    list-style: none;
+}
