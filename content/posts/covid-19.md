@@ -4,7 +4,7 @@ date: 2020-07-26T10:45:52+05:30
 draft: true
 author: "Kaali"
 tags: ["poem"]
-categories: ["covid"]
+categories: ["poetry"]
 moods: ["sad", "mixed"]
 Cover: "/posts/covid-19.jpg"
 ---

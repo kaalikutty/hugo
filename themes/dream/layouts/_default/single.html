@@ -11,6 +11,7 @@
   <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single">
 
     <section class="ui top attached segment" id="dream-save-post-as-img">
+      {{ if ne .Title "About Me" }}
       <header style="margin-top: 0 !important;">
         <h1 class="ui large header">
           {{ .Title }}
@@ -31,6 +32,7 @@
           </div>
         </h1>
       </header>
+      {{end}}
 
       {{ if .Site.Params.showSummaryCoverInPost }}
         <img class="ui image" style='margin-top: 2rem;height: {{.Params.CoverHeight | default "auto"}};width: {{.Params.CoverWidth | default "auto"}}' src="{{ .Params.Cover }}"  />
@@ -44,8 +46,6 @@
         {{ range $tag := .Params.tags }}
           <a class="ui label" href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">{{ $tag }}</a>
         {{ end }}
-      {{ else }}
-          <a class="ui label">{{ i18n "noTag" }}</a>
       {{ end }}
       {{ if .Site.Params.saveAsImage }}
       <div

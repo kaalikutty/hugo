@@ -3,8 +3,8 @@ title: "Why Alcestis choose not to speak when she was back alive?"
 date: 2020-07-26T10:37:34+05:30
 draft: true
 author: "Kaali"
-categories: ["fiction"]
-tags: ["review"]
+categories: ["reviews"]
+tags: ["silent patient"]
 moods: ["happy"]
 Cover: "/posts/silent-patient-2.png"
 ---

@@ -12,9 +12,11 @@
 
   {{ $paginator := .Paginate .Pages }}
   {{ range $paginator.Pages }}
-    <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
-      {{ .Render "summary" }}
-    </div>
+    {{ if ne .Title "About Me" }}
+      <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+        {{ .Render "summary" }}
+      </div>
+    {{ end }}
   {{ end }}
 </div>
 

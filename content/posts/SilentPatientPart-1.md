@@ -3,8 +3,8 @@ title: "What Lead Me to You the Silent Patient"
 date: 2020-07-26T10:37:34+05:30
 draft: true
 author: "Kaali"
-categories: ["fiction"]
-tags: ["review"]
+categories: ["reviews"]
+tags: ["silent patient"]
 moods: ["happy"]
 Cover: "/posts/silent-patient-1.png"
 ---

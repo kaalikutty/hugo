@@ -18,14 +18,14 @@ theme="dream"
 # enableRobotsTXT = true
 
 [params]
-  background = "#686868"
+  background = "#242424"
   backgroundImage = "/img/bg.jpg"
-  linkColor = ""
   saveAsImage = false
-  author = "Kaalikutty"
+  author = "Kaali"
   description = "Kali;s blog"
   avatar = "/img/avatar.jpg"
-  motto = "Beautiful thoughts"
+  motto = "Someone Is Walking Over My Grave"
+  linkColor = "seagreen"
 
   rss = true
 
@@ -96,9 +96,9 @@ theme="dream"
       autoHeadingID = true
       autoHeadingIDType = "github"
     [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = false
-      xhtml = false
+      hardWraps = true
+      unsafe = true
+      xhtml = true
   [markup.highlight]
     codeFences = true
     guessSyntax = false

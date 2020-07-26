@@ -1,11 +1,10 @@
 ---
-title: "@Me"
+title: "About Me"
 date: 2020-07-25T11:53:19+05:30
 draft: true
-tags: ["@me"]
 ---
 
-## Kaalikuty
+## Kaali
 
 |          |                    |
 |----------|--------------------|
