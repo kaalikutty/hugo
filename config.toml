@@ -1,0 +1,116 @@
+baseURL = "http://localhost:9010"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Kaalikutty"
+theme="dream"
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  mood = "moods"
+
+
+# copyright = "Kaalikuty"
+
+# googleAnalytics = ""
+
+# disqusShortname = ""
+
+# enableRobotsTXT = true
+
+[params]
+  background = "black"
+  color = "black"
+  backgroundImage = "/img/bg.jpg"
+  linkColor = "purple"
+
+  author = "Kaalikutty"
+  description = "Kali;s blog"
+  avatar = "/img/avatar.jpg"
+  motto = "Beautiful thoughts"
+
+  rss = true
+
+  # utterancesRepo = ""
+  
+  email = "abc.bnair@gmail.com"
+  # twitter = "https://twitter.com/krishna2nd"
+  # facebook = "https://fb.com/krishna2nd"
+  # instagram = "https://instagram.com/krishna2nd"
+  # linkedin = ""https://linkedin.com/krishna2nd""
+  # github = "https://github.com/krishna2nd"
+  # stackoverflow = "https://stackoverflow.com/krishna2nd"
+  # codepen = "https://codepen.com/krishna2nd"
+
+  siteStartYear = 2020
+
+  # favicon = "/favicon.ico"
+
+  # options
+  showSummaryCoverInPost = true
+
+  # dark mode
+  darkLinkColor = "darkseagreen"
+  darkNav = true 
+  dark404 = true
+
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.asciidocExt]
+    backend = "html5"
+    docType = "article"
+    extensions = []
+    failureLevel = "fatal"
+    noHeaderOrFooter = true
+    safeMode = "unsafe"
+    sectionNumbers = false
+    trace = false
+    verbose = true
+    workingFolderCurrent = false
+    [markup.asciidocExt.attributes]
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

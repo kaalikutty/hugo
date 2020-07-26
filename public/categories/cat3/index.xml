@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cat3 on My New Hugo Site</title>
+    <link>http://localhost:15714/categories/cat3/</link>
+    <description>Recent content in cat3 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jul 2020 13:41:54 +0530</lastBuildDate>
+    
+	<atom:link href="http://localhost:15714/categories/cat3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>C</title>
+      <link>http://localhost:15714/c/</link>
+      <pubDate>Sat, 25 Jul 2020 13:41:54 +0530</pubDate>
+      
+      <guid>http://localhost:15714/c/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
