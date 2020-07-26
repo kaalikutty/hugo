@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://localhost:15714/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Kaalikutty</title>
+    <link>http://localhost:9010/tags/</link>
+    <description>Recent content in Tags on Kaalikutty</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jul 2020 13:41:54 +0530</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Jul 2020 10:45:52 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:15714/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:9010/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>tag1</title>
-      <link>http://localhost:15714/tags/tag1/</link>
-      <pubDate>Sat, 25 Jul 2020 13:41:54 +0530</pubDate>
+      <title>poem</title>
+      <link>http://localhost:9010/tags/poem/</link>
+      <pubDate>Sun, 26 Jul 2020 10:45:52 +0530</pubDate>
       
-      <guid>http://localhost:15714/tags/tag1/</guid>
+      <guid>http://localhost:9010/tags/poem/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tag2</title>
-      <link>http://localhost:15714/tags/tag2/</link>
-      <pubDate>Sat, 25 Jul 2020 13:05:26 +0530</pubDate>
+      <title>review</title>
+      <link>http://localhost:9010/tags/review/</link>
+      <pubDate>Sun, 26 Jul 2020 10:37:34 +0530</pubDate>
       
-      <guid>http://localhost:15714/tags/tag2/</guid>
+      <guid>http://localhost:9010/tags/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>@me</title>
+      <link>http://localhost:9010/tags/me/</link>
+      <pubDate>Sat, 25 Jul 2020 11:53:19 +0530</pubDate>
+      
+      <guid>http://localhost:9010/tags/me/</guid>
       <description></description>
     </item>
     

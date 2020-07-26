@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Moods on My New Hugo Site</title>
-    <link>http://localhost:15714/moods/</link>
-    <description>Recent content in Moods on My New Hugo Site</description>
+    <title>Moods on Kaalikutty</title>
+    <link>http://localhost:9010/moods/</link>
+    <description>Recent content in Moods on Kaalikutty</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jul 2020 13:41:54 +0530</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Jul 2020 10:45:52 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:15714/moods/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:9010/moods/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>happy</title>
-      <link>http://localhost:15714/moods/happy/</link>
-      <pubDate>Sat, 25 Jul 2020 13:41:54 +0530</pubDate>
+      <title>mixed</title>
+      <link>http://localhost:9010/moods/mixed/</link>
+      <pubDate>Sun, 26 Jul 2020 10:45:52 +0530</pubDate>
       
-      <guid>http://localhost:15714/moods/happy/</guid>
+      <guid>http://localhost:9010/moods/mixed/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>angry</title>
-      <link>http://localhost:15714/moods/angry/</link>
-      <pubDate>Sat, 25 Jul 2020 13:05:26 +0530</pubDate>
+      <title>sad</title>
+      <link>http://localhost:9010/moods/sad/</link>
+      <pubDate>Sun, 26 Jul 2020 10:45:52 +0530</pubDate>
       
-      <guid>http://localhost:15714/moods/angry/</guid>
+      <guid>http://localhost:9010/moods/sad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>happy</title>
+      <link>http://localhost:9010/moods/happy/</link>
+      <pubDate>Sun, 26 Jul 2020 10:37:34 +0530</pubDate>
+      
+      <guid>http://localhost:9010/moods/happy/</guid>
       <description></description>
     </item>
     
